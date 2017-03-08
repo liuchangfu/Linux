@@ -1,7 +1,7 @@
 目录  
-1. 一、文件处理命令  
-		* [ls](#ls)  
-		* [mkdir](#mkdir)  
+ 一、文件处理命令  
+	1. [ls](#ls)  
+	2. [mkdir](#mkdir)  
 	3. [cd](#mkdir)  
 	4. [pwd](#pwd)    
 	5. [rmdir](#rmdir)  
@@ -15,30 +15,30 @@
 	11. [less](#less)  
 	12. [head](#head)  
 	13. [tail](#tail)  
-2. 二、权限处理命令  
+二、权限处理命令  
 	1. [chmod](#chmod)  
 	2. [chown](#chown)  
 	3. [chgrp](#chgrp)  
 	4. [umask](#umask)  
-3. 三、文件搜索命令  
+三、文件搜索命令  
 	1. [find](#find)  
 	2. [whereis](#whereis)  
 	3. [grep](#grep)  
-4. 四、帮助命令    
+四、帮助命令    
 	1. [man](#man)  
 	2. [help](#help)    
-5. 五、用户管理命令  
+五、用户管理命令  
 	1. [useradd](#useradd)  
 	2. [passwd](#passwd)  
 	3. [w](#w)
-6. 六、压缩和解压命令   
+六、压缩和解压命令   
 	1. [tar](@tar)
 	2. [tar命令解压缩](#tar命令解压缩)  
 	3. [zip](#zip)  
 	4. [unzip](#unzip)  
 	5. [bzip2](#bzip2)  
 	6. [bunzip2](#bunzip2)  
-7. 七、网络命令  
+七、网络命令  
 	1. [write](#write)  
 	2. [wall](#write)  
 	3. [ping](#ping)  
@@ -50,7 +50,7 @@
 	9. [netstat](#netstat)  
 	10. [setup](#setup)  
 	11. [mount](#mount)  
-8. 八、关机重启命令  
+八、关机重启命令  
 	1. [shutdown](#shutdown)  
 	2. [其他关机命令](#其他关机命令)  
 	3. [其他重启命令](#其他重启命令)  
