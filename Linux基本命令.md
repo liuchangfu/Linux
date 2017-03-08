@@ -1,11 +1,11 @@
 目录  
 1. 一、文件处理命令  
-	1. [ls](#ls)  
-	2. [mkdir](#mkdir)  
+		* [ls](#ls)  
+		* [mkdir](#mkdir)  
 	3. [cd](#mkdir)  
 	4. [pwd](#pwd)    
 	5. [rmdir](#rmdir)  
-	5. [cp](#rmdir)  
+	5. [cp](#cp)  
 	6. [mv](#mv)    
 	6. [rm](#rm)    
 	7. [touch](#touch)    
