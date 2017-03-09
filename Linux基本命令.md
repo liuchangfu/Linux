@@ -30,9 +30,14 @@
 五、用户管理命令  
 	1. [useradd](#useradd)  
 	2. [passwd](#passwd)  
-	3. [w](#w)
+	3. [w](#w)  
+	4. [usermod](#usermod)  
+	5. [change](#change)  
+	6. [userdel](#userdel)  
+	7. [查看用户](#查看用户)  
+	8. [su](#su)  
 六、压缩和解压命令   
-	1. [tar](@tar)
+	1. [tar](@tar)  
 	2. [tar命令解压缩](#tar命令解压缩)  
 	3. [zip](#zip)  
 	4. [unzip](#unzip)  
@@ -499,7 +504,7 @@
 	* -v 排除指定字符串
 	
 * 范例：
-	* grep mysql /root/install.log
+	* grep "mysql" /root/install.log
 
 
 # 四、帮助命令
@@ -559,6 +564,8 @@
 
 	* useradd guangguang
 
+![](img/l10.png)
+
 ## passwd
 
 * 命令名称：passwd
@@ -574,6 +581,8 @@
 * 范例：
 
 	* passwd guangguang
+
+![](img/l11.png)
 
 ## w
 
@@ -591,6 +600,30 @@
 
 * 范例：
 	* w
+
+## usermod
+
+![](img/l12.png)
+
+![](img/l13.png)
+
+
+## change
+
+![](img/l14.png)
+
+## userdel
+
+![](img/l15.png)
+
+## 查看用户
+
+![](img/l16.png)
+
+## su
+
+![](img/l17.png)
+
 
 # 六、压缩和解压命令
 
