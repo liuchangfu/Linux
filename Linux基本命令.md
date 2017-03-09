@@ -78,7 +78,7 @@
 
 * 语法： ls 选项 [-ald ] [ 文件或目录 ]
 
-	* -a 显示所有文件，包括隐藏•
+	* -a 显示所有文件，包括隐藏
 	* -l 详细信息显示
 	* 查看目录属性
 
@@ -199,9 +199,9 @@
 * 命令英文愿意：move
  
 * 命令所在路径：/bin/mv
-*
+
 * 执行权限：所有用户
-*
+
 * 语法：mv [原文件或目录] 
 
 * 功能描述:剪切文件、改名
@@ -218,7 +218,7 @@
 * 执行权限：所有用户
 
 * 语法：rm -rf [文件或目录]
-*  
+ 
 	* -r 删除目录
 
 	* -f 强制执行
@@ -260,7 +260,7 @@
 	* -n 显示行号
 * 范例:
 	* cat /etc/issue
-	* 
+ 
 	* cat -n /etc/services
 
 ## tac
@@ -331,6 +331,7 @@
 
 	* -n 指定行数
 * 范例:
+
 	* head -n 20 /etc/issue
 
 ## tail
@@ -350,7 +351,7 @@
 	* -f 动态显示文件未尾内容
 
 * 范例:
-* 
+
 	* tail -n 20 /etc/issue
 
 #  二、权限处理命令
@@ -498,7 +499,7 @@
 * 语法：grep -iv [指定字符串] [文件]
 
 * 功能描述：搜索命令所在目录及帮助文档路径
-* 
+
 	* -i 不区分大小写
 
 	* -v 排除指定字符串
@@ -751,7 +752,6 @@
 
 # 七、网络命令
 
-
 ## write
 
 * 命令名称：write
@@ -767,7 +767,6 @@
 * 范例：
 
 	* write liyifeng
-
 
 ## wall
 
@@ -787,7 +786,6 @@
 
 	* wall LinZhiling is beautiful!
 
-
 ## ping
 
 * 命令名称： ping
@@ -805,7 +803,6 @@
 * 范例：
 
 	* ping 192.168.1.113 
-
 
 ## ifconfig
 
@@ -840,7 +837,6 @@
 * 范例：
 
 	* mail root
-
 
 ## last
 
@@ -892,7 +888,6 @@
 
 	* traceroute edu.51cto.com
 
-
 ## netstat
 
 * 命令名称： netstat 
@@ -904,7 +899,6 @@
 * 语法：netstat [选项 ]
 
 * 功能描述：显示网络相关信息
-
 
 ## netstat
 
@@ -927,7 +921,6 @@
 	* netstat–an 查看本机所有的网络连接 查看本机所有的网络连接
 
 	* netstat–rn 查看本机路由表
-
 
 ## setup
 
@@ -961,7 +954,6 @@
 
 # 八、关机重启命令
 
-
 ## shutdown 命令
 
 * [root@localhos~]#shutdown [选项] 时间
@@ -974,8 +966,6 @@
 
 	* -r：重启
 
-
-
 ## 其他关机命令
 
 [root@localhost~]# halt
@@ -984,13 +974,11 @@
 
 [root@local~]# init 0
 
-
 ## 其他重启命令
 
 * [root@local~]# reboot ~]# reboot
 
 * [root@local~]# init 6
-
 
 ## 系统运行级别
 
@@ -1013,7 +1001,6 @@
 * id:3:initdefault 
 
 * [root@local ~]# runlevel（#查询系统运行级别）
-
 
 ## 退出登录命令
 
